@@ -1,0 +1,51 @@
+html{
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+header{
+    color: #1A1A40;
+    text-align: center;
+}
+div#banner{
+    text-align: center;
+    width: 100%;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    text-decoration: underline;
+}
+h5{
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    text-decoration: underline; 
+}
+main{
+    color: #1A1A40;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+main div{
+    border-bottom: 3px #6867AC dotted;
+    border-top: 3px #6867AC dotted;
+    margin: 5px;
+}
+main img{
+    float:left;
+    margin: 25px;
+}
+p{
+    padding: 10px;
+}
+ul{
+    padding: 10px;
+}
+div#idade_moderna{
+    width:100%;
+}
