@@ -10,18 +10,18 @@ div#banner{
     width: 100%;
 }
 h1{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 46px;
     text-align: center;
     text-decoration: underline;
 }
 h3{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 26px;
     text-decoration: underline;
 }
 h5{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 23px;
     text-decoration: underline; 
 }
@@ -48,4 +48,58 @@ ul{
 }
 div#idade_moderna{
     width:100%;
+}
+footer p{
+    color: #1A1A40;
+    font-size: 18px;
+}
+/*animação de ondas*/
+.waves {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: -7px;
+    min-height: 10px;
+    max-height: 85px;
+}
+
+.content {
+    position: relative;
+    height: 10vh;
+    text-align: center;
+    background-color: white;
+}
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
 }
